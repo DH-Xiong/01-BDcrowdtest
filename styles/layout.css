@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 70px;
+    background-color: #3999fa;
+    min-width: 1100px;
+}
+header{
+    height: 70px;
+    width: 1100px;
+    margin: auto;
+    background-color: #3999fa;
+    line-height: 70px;
+    color: #ffffff;
+}
+header *{
+    display: inline-block;
+}
+header img {
+    vertical-align: middle;
+    width: 90%;
+    height: 90%;
+}
+header nav{
+    margin-left: 70px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 40px;
+}
+nav a:hover{
+    color: #;
+}
+#header-right{
+    float: right;
+}
+#manage{
+    padding-left: 20px;
+}
+#manage a{
+    line-height: normal;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #2182e9;
+}
+#login{
+    line-height: normal;
+    padding-right: 20px;
+    border: 1px #ffffff;
+    border-right-style: solid;
+}
