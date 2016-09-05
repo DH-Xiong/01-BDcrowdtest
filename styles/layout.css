@@ -136,3 +136,20 @@ div.block img {
     width: 50px;
     display: inline-block;
 }
+
+#footer {
+    height: 200px;
+    background-color: #222231;
+}
+
+.footer.block {
+    display: inline-block;
+    width: 366px;
+    height: 200px;
+    border: none;
+}
+
+.text-container * {
+    display: block;
+}
+
