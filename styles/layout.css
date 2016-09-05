@@ -1,3 +1,6 @@
+body{
+    font-family: "Microsoft YaHei", 微软雅黑, 宋体, Arial, sans-serif;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -104,7 +107,7 @@ div.block {
     padding: 15px;
     position: relative;
     display: inline-block;
-    margin: 0px;
+    margin-top: 130px;
     border: 1px solid #dddddd;
 }
 
@@ -133,8 +136,11 @@ div.block img {
 }
 
 .arrow {
-    width: 50px;
+    width: 60px;
+    height: 210px;
     display: inline-block;
+    vertical-align: bottom;
+    background: url("../images/arrow.png") no-repeat center;
 }
 
 #footer {
