@@ -146,16 +146,22 @@ div.block img {
 #footer {
     height: 200px;
     background-color: #222231;
+    min-width: 1100px;
 }
 
 .footer.block {
     display: inline-block;
-    width: 366px;
+    width: 360px;
     height: 200px;
     border: none;
+    vertical-align: top;
+    margin-top: 0px;
+    padding: 0px;
 }
-
-.text-container * {
-    display: block;
+.container.footer{
+    width: 1100px;
+    margin: auto;
 }
+.text-container{
 
+}
