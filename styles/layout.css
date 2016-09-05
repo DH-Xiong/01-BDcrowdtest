@@ -97,3 +97,42 @@ nav a:hover{
 #slideshow {
     height: 400px;
 }
+
+div.block {
+    width: 198px;
+    height: 178px;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    border: 1px solid #dddddd;
+}
+
+div.block h2 {
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 55px;
+}
+
+div.block p {
+    color: #999;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+div.block img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 99;
+    top: -50px;
+    left: 64px;
+}
+
+.arrow {
+    width: 50px;
+    display: inline-block;
+}
