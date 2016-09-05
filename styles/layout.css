@@ -52,3 +52,48 @@ nav a:hover{
     border: 1px #ffffff;
     border-right-style: solid;
 }
+
+.container {
+    height: 540px;
+    min-width: 1100px;
+}
+
+.container-partner {
+    height: 430px;
+    min-width: 1100px;
+}
+
+#howto,
+#capability,
+#quality,
+#partner {
+    height: 540px;
+    width: 1100px;
+    margin: auto;
+}
+
+#partner {
+    height: 430px;
+}
+
+.head {
+    text-align: center;
+    color: #666;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.bar {
+    height: 3px;
+    width: 50px;
+    margin: 12px auto auto;
+    background-color: #71b6fd;
+}
+
+.background {
+    background-color: #f9f9f9;
+}
+
+#slideshow {
+    height: 400px;
+}
