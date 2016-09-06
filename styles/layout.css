@@ -23,8 +23,6 @@ header *{
 }
 header img {
     vertical-align: middle;
-    width: 90%;
-    height: 90%;
 }
 header nav{
     margin-left: 70px;
@@ -32,11 +30,9 @@ header nav{
 nav a{
     color: #ffffff;
     text-decoration: none;
-    margin-right: 40px;
+    margin: 0px 20px  0px 20px;
 }
-nav a:hover{
-    color: #;
-}
+
 #header-right{
     float: right;
 }
@@ -167,4 +163,74 @@ div.block img {
     width: 1100px;
     height: 400px;
     margin: auto;
+    background: url("../images/banner-contact.png") no-repeat bottom right;
+    position: relative;
+}
+.banner-text p:nth-child(1){
+    color: #a7d2ff;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.banner-text p:nth-child(2){
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.banner-text p:nth-child(3){
+    color: #ffffff;
+    font-size: 24px;
+}
+.banner-text p:nth-child(4){
+    color: #ffffff;
+    font-size: 24px;
+}
+.banner-text{
+    position: absolute;
+    top: 82px;
+}
+
+.banner-contact p:nth-child(1){
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 29px;
+    line-height: 20px;
+}
+.banner-contact p:nth-child(2){
+    color: #666;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 16px;
+}
+.banner-contact p:nth-child(2) *{
+   text-decoration: none;
+    color: #666;
+}
+.banner-contact p:nth-child(3){
+    color: #666;
+    font-size: 14px;
+    line-height: 14px;
+}
+.banner-contact{
+    width: auto;
+    position: absolute;
+    top: 135px;
+    right: 160px;
+}
+.banner-button{
+    background-color: #ff8244;
+    width: 120px;
+    height: 36px;
+    border-radius: 3px;
+    position: absolute;
+    right: 200px;
+    top: 252px;;
+}
+.banner-button a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 36px;
 }
