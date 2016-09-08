@@ -12,3 +12,38 @@ div.section{
     width: 1100px;
     margin: auto;
 }
+div.container.header{
+    height: 70px;
+    background-color: #3999fa;
+}
+div.section.header{
+    height: 70px;
+    background-color: #3999fa;
+}
+div.container.banner {
+    height: 400px;
+    background: url("../images/banner-background.png") repeat-x left;
+}
+.container.banner > img{
+    margin: auto;
+    vertical-align: bottom;
+}
+div.container.process,
+div.container.capability,
+div.container.quality{
+    height: 540px;
+}
+div.container.case{
+    height: 430px;
+}
+div.container.footer{
+    height: 200px;
+}
+div.container.capability,
+div.container.case{
+    background-color: #f9f9f9;
+}
+div.container.footer{
+    background-color: #222231;
+}
+
