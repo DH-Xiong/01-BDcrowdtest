@@ -23,6 +23,7 @@ div.section.header{
 div.container.banner {
     height: 400px;
     background: url("../images/banner-background.png") repeat-x left;
+    position: relative;
 }
 div.section.banner{
     height: 400px;
@@ -86,4 +87,7 @@ div#login{
     line-height: 100%;
     background-color: #2182e9;
 }
-
+#banner-img{
+    position: relative;
+    bottom: 0px;
+}
