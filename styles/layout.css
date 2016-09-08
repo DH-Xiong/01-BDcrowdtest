@@ -24,13 +24,17 @@ div.container.banner {
     height: 400px;
     background: url("../images/banner-background.png") repeat-x left;
 }
-.container.banner > img{
-    margin: auto;
-    vertical-align: bottom;
+div.section.banner{
+    height: 400px;
 }
 div.container.process,
 div.container.capability,
 div.container.quality{
+    height: 540px;
+}
+div.section.process,
+div.section.capability,
+div.section.quality{
     height: 540px;
 }
 div.container.case{
@@ -39,11 +43,47 @@ div.container.case{
 div.container.footer{
     height: 200px;
 }
+div.section.footer{
+    height: 200px;
+}
 div.container.capability,
 div.container.case{
     background-color: #f9f9f9;
 }
 div.container.footer{
     background-color: #222231;
+}
+#logo img{
+    vertical-align: middle;
+}
+#logo{
+    margin-right: 85px;
+}
+.header a,nav,#login{
+    display: block;
+    float: left;
+    line-height: 70px;
+    vertical-align: middle;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header nav li{
+    display: block;
+    float: left;
+}
+nav a{
+    margin-right: 40px;
+    font-size: 16px;
+}
+div#login{
+    float: right;
+    margin-top: 19px;
+}
+#login p{
+    font-size: 14px;
+    padding: 9px 26px;
+    border-radius: 4px;
+    line-height: 100%;
+    background-color: #2182e9;
 }
 
