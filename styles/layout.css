@@ -196,13 +196,91 @@ ul.case img {
 .process div.block,
 .process div.separate{
     margin-top: 80px;
+    position: relative;
 }
-div.icon img{
+.process div.icon img{
     display: block;
-    margin: 0 auto auto;
+    position: absolute;
+    left: 65px;
+    z-index: 99;
 }
+
 .process div.content{
     width: auto;
-    height: 210px;
-    border: 1px #dddddd;
+    height: 208px;
+    border: 1px solid #dddddd;
+    position: absolute;
+    top: 50px;
+}
+.content h3{
+    font-weight: normal;
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+.process div.content h3{
+    margin-top: 70px;
+}
+.content p{
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+}
+.process div.content p{
+    margin-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.capability div.block,
+.capability div.separate{
+    margin-top: 70px;
+    position: relative;
+}
+.capability div.icon {
+    width: auto;
+    height: auto;
+}
+.capability div.icon img{
+    display: block;
+    margin: auto;
+}
+.capability li{
+    font-size: 14px;
+    color: #666666;
+    line-height: 28px;
+}
+
+.capability div.content *{
+    text-align: left;
+    color: #666666;
+}
+.capability div.content{
+    padding-left: 70px;
+}
+.capability div.content h3{
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+.quality div.icon {
+    width: auto;
+    height: auto;
+}
+.quality div.icon img{
+    display: block;
+    margin: auto;
+}
+.quality div.block,
+.quality div.separate{
+    margin-top: 90px;
+    position: relative;
+}
+.quality div.content{
+    padding-top: 40px;
+}
+.quality div.content h3{
+    color: #666666;
+}
+.case ul{
+    margin-top: 90px;
 }
