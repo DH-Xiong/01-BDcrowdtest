@@ -114,8 +114,44 @@ div.banner-pop{
     height: 400px;
     background: url("../images/banner-pop.png") no-repeat center;
 }
-.banner-pop-contact h3{
+.banner-pop-text h3{
+    font-size: 20px;
     font-weight: normal;
     color: #333;
     text-align: center;
+}
+div.banner-pop-contact{
+    width: 240px;
+    margin: 25px auto auto;
+}
+.banner-pop-text p{
+    font-size: 14px;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 15px;
+    line-height: 14px;
+    padding-left: 20px;
+}
+
+.banner-pop-text a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #666666;
+}
+div.banner-pop-text{
+    margin-top: 27%;
+}
+div.banner-pop-button{
+    width: 120px;
+    height: 36px;
+    background-color: #ff8244;
+    text-align: center;
+    border-radius: 3px;
+    margin: auto;
+}
+.banner-pop-button a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 36px;
+    vertical-align: middle;
 }
