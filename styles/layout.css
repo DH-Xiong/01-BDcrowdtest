@@ -23,10 +23,10 @@ div.section.header{
 div.container.banner {
     height: 400px;
     background: url("../images/banner-background.png") repeat-x left;
-    position: relative;
 }
 div.section.banner{
     height: 400px;
+    position: relative;
 }
 div.container.process,
 div.container.capability,
@@ -87,7 +87,35 @@ div#login{
     line-height: 100%;
     background-color: #2182e9;
 }
-#banner-img{
-    position: relative;
-    bottom: 0px;
+.banner-text h3{
+    font-weight: normal;
+    font-size: 20px;
+    color: #a7d2ff;
+    margin-bottom: 17px;
+}
+.banner-text h1{
+    font-weight: normal;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 43px;
+}
+.banner-text p{
+    font-size: 24px;
+    color: #ffffff;
+}
+div.banner-text{
+    position: absolute;
+    top: 21%;
+}
+div.banner-pop{
+    position: absolute;
+    right: 0;
+    width: 520px;
+    height: 400px;
+    background: url("../images/banner-pop.png") no-repeat center;
+}
+.banner-pop-contact h3{
+    font-weight: normal;
+    color: #333;
+    text-align: center;
 }
