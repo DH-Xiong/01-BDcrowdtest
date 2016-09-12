@@ -47,6 +47,7 @@ div.container.footer{
 
 div.section.footer{
     height: 200px;
+    position: relative;
 }
 div.container.capability,
 div.container.case{
@@ -325,10 +326,18 @@ div.case.section:after{
     clear: both;
     float: left;
 }
-.footer div.content {
-    margin: auto;
-    height: 140px;
+.footer div.block{
+    text-align: center;
 }
-.copyright{
-    color: #333333;
+.footer div.content {
+    display: inline-block;
+    margin: auto;
+}
+div.copyright{
+    color: #51515a;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
 }
