@@ -44,9 +44,7 @@ div.container.case{
 div.container.footer{
     height: 200px;
 }
-div.section.case{
-    height: 430px;
-}
+
 div.section.footer{
     height: 200px;
 }
@@ -62,6 +60,9 @@ div.container.footer{
 }
 #logo{
     margin-right: 85px;
+}
+.header div.section{
+    height: 70px;
 }
 .header a,nav,#login{
     display: block;
@@ -181,11 +182,6 @@ div.separate,
 div.block{
     float: left;
 }
-ul.case li{
-    display: block;
-    float: left;
-    margin: auto;
-}
 ul.case a{
     text-decoration: none;
 }
@@ -281,6 +277,58 @@ ul.case img {
 .quality div.content h3{
     color: #666666;
 }
-.case ul{
+.case.section a{
+    display: inline-block;
+}
+div.case.section{
+    height: 430px;
+    text-align: justify;
+}
+.case.section a{
+    width: 175px;
+    height: 100px;
     margin-top: 90px;
+    display: inline-block;
+
+    /* IE fix.*/
+    *display: inline;
+    zoom: 1
+}
+div.case.section:after{
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+.footer div.block{
+    width: 366px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.footer li,
+.footer a{
+    list-style: none;
+    color: #6b6d76;
+    font-size: 14px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.footer h3{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.footer div.content h3,
+.footer div.content li{
+    display: inline-block;
+    clear: both;
+    float: left;
+}
+.footer div.content {
+    margin: auto;
+    height: 140px;
+}
+.copyright{
+    color: #333333;
 }
