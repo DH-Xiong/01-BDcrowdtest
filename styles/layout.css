@@ -27,6 +27,11 @@ div.container.banner {
 div.section.banner{
     height: 400px;
     position: relative;
+    background: url("../images/banner-bkgd-image.png") no-repeat bottom center;
+    padding-left: 100px;
+
+    padding-right: 100px;
+
 }
 div.container.process,
 div.container.capability,
@@ -60,7 +65,7 @@ div.container.footer{
     vertical-align: middle;
 }
 #logo{
-    margin-right: 85px;
+    margin-right: 65px;
 }
 .header div.section{
     height: 70px;
@@ -78,7 +83,8 @@ div.container.footer{
     float: left;
 }
 nav a{
-    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
 }
 div#login{
@@ -105,8 +111,15 @@ div#login{
     margin-bottom: 43px;
 }
 .banner-text p{
+     font-size: 24px;
+     color: #ffffff;
+ }
+.banner-text a{
+    display: block;
     font-size: 24px;
     color: #ffffff;
+    font-weight: normal;
+    line-height: 30px;
 }
 div.banner-text{
     position: absolute;
@@ -114,7 +127,7 @@ div.banner-text{
 }
 div.banner-pop{
     position: absolute;
-    right: 0;
+    right: 100px;
     width: 520px;
     height: 400px;
     background: url("../images/banner-pop.png") no-repeat center;
@@ -340,4 +353,7 @@ div.copyright{
     width: 100%;
     position: absolute;
     bottom: 15px;
+}
+.header nav a:hover{
+    background-color: #2182e9;
 }
